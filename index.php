@@ -1,12 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Introduction to Git and Github by DevAhoy</title>
-</head>
-<body>
-<h1>Hello World</h1>
+<?php
 
-<h2>สวัสดีชาวโลก!</h2>
-</body>
-</html>
+define("webStart", true);
+
+define("ROOT_CONTROLLER", "controller/");
+define("ROOT_MODAL", "modal/");
+define("ROOT_VIEW", "theme/");
+
+if( webStart ) {
+
+    require_once("Connect.class.php");
+    require_once("App.class.php");
+    $app = new App();
+
+}
