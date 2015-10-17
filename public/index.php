@@ -4,7 +4,7 @@ define("webStart", true);
 
 define("ROOT_CONTROLLER", "../controller/");
 define("ROOT_MODAL", "../modal/");
-define("ROOT_VIEW", "../theme/");
+define("ROOT_VIEW", "../view/");
 
 if( webStart ) {
 
