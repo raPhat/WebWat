@@ -12,17 +12,21 @@
 <script>
     window.onscroll = function() {
         changeFixed( window.scrollY );
+
+        function changeFixed( height ) {
+            if( height > 0 ) {
+                document.getElementById('header').classList.add('fixed');
+                document.getElementById('sub-container').classList.add('scroll');
+            } else {
+                document.getElementById('header').classList.remove('fixed');
+                document.getElementById('sub-container').classList.remove('scroll');
+            }
+        }
     };
 
-    function changeFixed( height ) {
-        if( height > 0 ) {
-            document.getElementById('header').classList.add('fixed');
-            document.getElementById('sub-container').classList.add('scroll');
-        } else {
-            document.getElementById('header').classList.remove('fixed');
-            document.getElementById('sub-container').classList.remove('scroll');
-        }
-    }
+    var slide = function( slide ) {
+        var current;
+    };
 </script>
 </body>
 </html>

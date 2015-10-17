@@ -31,6 +31,8 @@ class App {
         // โหลด Controller
         require_once( ROOT_CONTROLLER . "pagesController.php" );
         require_once( ROOT_CONTROLLER . "indexController.php" );
+        require_once( ROOT_CONTROLLER . "homeController.php" );
+        require_once( ROOT_CONTROLLER . "historyController.php" );
 
         // โหลด Modal
         //require_once( ROOT_MODAL . "page.php" );

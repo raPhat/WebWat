@@ -31,7 +31,7 @@
             <div class="container">
                 <ul class="horizon">
 
-                    <li><a href="#"><i class="fa fa-home"></i> <?=Language::lang('home')?></a></li>
+                    <li><a href="home"><i class="fa fa-home"></i> <?=Language::lang('home')?></a></li>
                     <li><a href="history"><i class="fa fa-history"></i> <?=Language::lang('history')?></a></li>
                     <li><a href="#"><i class="fa fa-university"></i> <?=Language::lang('importantplace')?></a></li>
                     <li><a href="#"><i class="fa fa-book"></i> <?=Language::lang('guestbook')?></a></li>
