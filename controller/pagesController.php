@@ -6,6 +6,7 @@ class pagesController {
 
     function home() {
         $page = new Page();
+
         require_once( ROOT_VIEW . 'home.php');
     }
 
