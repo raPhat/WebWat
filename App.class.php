@@ -21,11 +21,18 @@ class App {
     }
 
     private function _autoload() {
+        // โหลด Language
+        require_once( ROOT_LANG . "Language.php" );
+        if( isset($_GET['lang']) ) {
+            Language::$type = $_GET['lang'];
+        }
+        Language::_load();
+
         // โหลด Controller
         require_once( ROOT_CONTROLLER . "pagesController.php" );
         require_once( ROOT_CONTROLLER . "indexController.php" );
 
         // โหลด Modal
-        require_once( ROOT_MODAL . "page.php" );
+        //require_once( ROOT_MODAL . "page.php" );
     }
 }
