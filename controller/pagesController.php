@@ -4,15 +4,13 @@ if( !defined("webStart") ) { exit(0); }
 
 class pagesController {
 
-    public $page =
-        [
-            'title' => 'เว็บไซต์วัดบ้านเด่นสะหรีศรีเมืองแกน :: WatBanDenSaRheSriMaungGan' ,
-            'description'
-        ];
-
     function home() {
-        $page = $this->page;
+        $page = new Page();
         require_once( ROOT_VIEW . 'home.php');
+    }
+
+    function test() {
+        echo $_POST['name'];
     }
 
     function error() {

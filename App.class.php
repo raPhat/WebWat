@@ -17,7 +17,7 @@ class App {
             $controller = "pages";
             $action = "home";
         }
-        require_once('route.php');
+        require_once('Call.php');
     }
 
     private function _autoload() {
@@ -26,6 +26,6 @@ class App {
         require_once( ROOT_CONTROLLER . "indexController.php" );
 
         // โหลด Modal
-        //require_once( ROOT_MODAL . "indexController.php" );
+        require_once( ROOT_MODAL . "page.php" );
     }
 }
