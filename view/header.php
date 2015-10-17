@@ -33,10 +33,11 @@
 
                     <li><a href="home"><i class="fa fa-home"></i> <?=Language::lang('home')?></a></li>
                     <li><a href="history"><i class="fa fa-history"></i> <?=Language::lang('history')?></a></li>
-                    <li><a href="#"><i class="fa fa-university"></i> <?=Language::lang('importantplace')?></a></li>
-                    <li><a href="#"><i class="fa fa-book"></i> <?=Language::lang('guestbook')?></a></li>
-                    <li><a href="#"><i class="fa fa-commenting"></i> <?=Language::lang('contact')?></a></li>
-                    <li><a href="#"><i class="fa fa-map-marker"></i> <?=Language::lang('map')?></a></li>
+                    <li><a href="importantplace"><i class="fa fa-university"></i> <?=Language::lang('importantplace')?></a></li>
+                    <li><a href="gallery"><i class="fa fa-picture-o"></i> <?=Language::lang('gallery')?></a></li>
+                    <li><a href="guestbook"><i class="fa fa-book"></i> <?=Language::lang('guestbook')?></a></li>
+                    <li><a href="contact"><i class="fa fa-commenting"></i> <?=Language::lang('contact')?></a></li>
+                    <li><a href="map"><i class="fa fa-map-marker"></i> <?=Language::lang('map')?></a></li>
                 </ul>
             </div>
         </nav>

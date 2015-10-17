@@ -33,7 +33,8 @@ class App {
         require_once( ROOT_CONTROLLER . "indexController.php" );
         require_once( ROOT_CONTROLLER . "homeController.php" );
         require_once( ROOT_CONTROLLER . "historyController.php" );
-
+        require_once( ROOT_CONTROLLER . "importantplaceController.php" );
+        require_once( ROOT_CONTROLLER . "galleryController.php" );
         // โหลด Modal
         //require_once( ROOT_MODAL . "page.php" );
     }

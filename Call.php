@@ -7,4 +7,6 @@ Route::get('/','homeController@page');
 Route::get('/home','homeController@page');
 //Route::get('/home/{id}','pagesController@home', ['id'=>'/[0-9]/']);
 Route::get('/history','historyController@page');
+Route::get('/importantplace','importantplaceController@page');
+Route::get('/gallery','galleryController@page');
 Route::error();
