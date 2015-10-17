@@ -2,7 +2,14 @@
 
     <div id="sub-container" class="sub-container">
         <section class="slide">
-            aasd
+            <div class="bt pre" id="slidePre"> &lt; </div>
+            <div class="bt next" id="slideNext"> &gt; </div>
+            <div id="slide" class="slideShow">
+                <div class="photo" style="background-color: #222222">a</div>
+                <div class="photo" style="background-color: #adf">s</div>
+                <div class="photo" style="background-color: #758">d</div>
+                <div class="photo" style="background-color: #324">f</div>
+            </div>
         </section>
         <div class="container">
             <div class="row">

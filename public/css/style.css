@@ -89,9 +89,54 @@ body > footer > .container li:last-child {
     background-color: #e8e7f3;
 }
 .sub-container > section.slide {
+    position: relative;
     width: 100%;
     height: 225px;
     background-color: #f0f0f0;
+}
+
+section.slide > .bt {
+    position: absolute;
+    width: 50px;
+    height: 225px;
+    line-height: 205px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 60px;
+    color: rgba(255,255,255,0.35);
+    z-index: 999;
+    cursor: pointer;
+}
+section.slide > .bt:hover {
+    color: rgba(255,255,255,0.65);
+}
+section.slide > .bt.pre {
+    top: 0;
+    left: 0;
+}
+section.slide > .bt.next {
+    top: 0;
+    right: 0px;
+}
+
+.slideShow {
+    position: relative;
+}
+.slideShow > .photo {
+    width: 100%;
+    height: 225px;
+    position: absolute;
+    right: -100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 2s, opacity 2s linear, right 1s ease-out;
+}
+.slideShow > .current {
+    position: absolute;
+    right: 0px;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 2s linear, right 1s ease-in;
 }
 
 .hTitle > .container {
@@ -193,7 +238,9 @@ ul.horizon > li {
 .card > .img {
     width: 100%;
     height: 250px;
-    background-color: #245580;
+    background-color: #CCC;
+    background-size: 100% auto;
+    background-position: center;
 }
 
 .card-body > header {
