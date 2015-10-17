@@ -2,8 +2,8 @@
 
     <div id="sub-container" class="sub-container">
         <section class="slide">
-            <div class="bt pre" id="slidePre"> &lt; </div>
-            <div class="bt next" id="slideNext"> &gt; </div>
+            <div class="bt pre" id="slidePre"> <i class="fa fa-angle-left"></i> </div>
+            <div class="bt next" id="slideNext"> <i class="fa fa-angle-right"></i> </div>
             <div id="slide" class="slideShow">
                 <div class="photo" style="background-color: #222222">a</div>
                 <div class="photo" style="background-color: #adf">s</div>
@@ -17,7 +17,7 @@
                     <div class="row">
                         <div class="card margin">
                             <div class="category">
-                                #as
+                                #สำคัญ
                             </div>
                             <div class="card-body">
                                 <header>
