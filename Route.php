@@ -6,7 +6,8 @@ class Route {
 
     static function splitUri( $uri = null ) {
         if( is_null($uri) ) {
-            $uri = $_SERVER['REQUEST_URI'];
+            $cutGet = explode("?", $_SERVER['REQUEST_URI'] );
+            $uri = $cutGet[0];
         }
         $temp = explode("/", $uri );
         if ( count($temp)>1 ) {

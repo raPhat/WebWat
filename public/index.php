@@ -5,6 +5,7 @@ define("webStart", true);
 define("ROOT_CONTROLLER", "../controller/");
 define("ROOT_MODAL", "../modal/");
 define("ROOT_VIEW", "../view/");
+define("ROOT_LANG", "../language/");
 
 if( webStart ) {
 
