@@ -302,4 +302,5 @@ ul.horizon > li {
 .card > .card-content > p.indent {
     font-family: 'max_pinjohnv2regular';
     text-indent: 2.5em;
+    font-size: 20px;
 }
