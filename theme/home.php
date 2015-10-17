@@ -2,7 +2,10 @@
 <?php require_once( ROOT_VIEW . 'header.php' ); ?>
 
 <div class="contianer">
-    karjkeng <?=$_SERVER['REQUEST_URI'];?>
+    <?php
+    $l_controller = scandir(ROOT_CONTROLLER);
+    print_r($l_controller);
+    ?>
 </div>
 
-<?php require_once( ROOT_VIEW . 'header.php' ); ?>
+<?php require_once( ROOT_VIEW . 'footer.php' ); ?>
