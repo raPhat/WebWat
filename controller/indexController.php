@@ -4,7 +4,10 @@ if( !defined("webStart") ) { exit(0); }
 
 class indexController {
 
-    function __construct() {
-        echo "OKKKK";
+    function test( $req ) {
+        $data['test'] = $req['id'];
+        $data['name'] = $_POST['name'];
+        header('Content-Type: application/json');
+        echo json_encode($data);
     }
 }

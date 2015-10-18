@@ -10,6 +10,8 @@ Route::get('/history','historyController@page');
 Route::get('/importantplace','importantplaceController@page');
 Route::get('/gallery','galleryController@page');
 
+Route::post('/test/{id}','indexController@test', ['id'=>'/[0-9]/']);
+
 Route::get('/admin','adminController@index');
 
 Route::error();
