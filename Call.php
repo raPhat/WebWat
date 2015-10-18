@@ -9,11 +9,9 @@ Route::get('/home','homeController@page');
 Route::get('/history','historyController@page');
 Route::get('/importantplace','importantplaceController@page');
 Route::get('/gallery','galleryController@page');
-<<<<<<< HEAD
 Route::get('/guestbook','guestbookController@page');
-=======
-
+Route::get('/contact','contactController@page');
+Route::get('/map','mapController@page');
 Route::get('/admin','adminController@index');
 
->>>>>>> origin/master
 Route::error();

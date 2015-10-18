@@ -4,7 +4,7 @@
 <div class="container">
    <div class="card margin">
        <div class="card-body">
-           <header>  <i class="fa fa-history"></i> ประวัติความเป็นมา</header>
+           <header> <h2> <i class="fa fa-history"></i> ประวัติความเป็นมา</h2></header>
 
        </div>
        <div class="card-content">
@@ -54,7 +54,6 @@
                ที่ยังคงอยู่ระหว่างการก่อสร้างแต่มองเพิ่งภายนอกก็ไม่เสียใจที่ได้มายล พระธาตุ 12
                ราศีที่ตระหง่านขาวเด่นน่ากราบไหว้
            </p>
-
            <p class="indent">
                แล้วเชื่อหรือไม่ว่า บนพื้นที่อันใหญ่โตมากสิ่งปลูกสร้างของวัดแห่งนี้
                มองทั่ววัดเราก็หาภิกษุสงฆ์ได้ยากยิ่ง

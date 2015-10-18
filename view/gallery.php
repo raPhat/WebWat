@@ -4,9 +4,11 @@
     <div class="container">
         <div class="card margin">
             <div class="card-body">
-                <header> คลังภาพ</header>
+                <header>
+                    <h2><i class="fa fa-picture-o"></i> คลังภาพ</h2>
+                </header>
             </div>
-            <div class="row">
+            <div class="row card-body margin">
                 <div class="col-md-3">
                     <div class="card">
                         <div class="card-body">
@@ -51,11 +53,13 @@
                         </div>
                     </div>
                 </div>
-                </div>
-
             </div>
+            <div class="card-body">
+                <footer> </footer></div>
         </div>
+
     </div>
+</div>
 </div>
 
 <?php require_once(ROOT_VIEW . 'footer.php'); ?>
