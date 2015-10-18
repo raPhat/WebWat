@@ -7,16 +7,15 @@
             <div class="card margin">
                 <div class="card-body">
                     <header>
-                        สถานที่สำคัญ
+                        <h2><i class="fa fa-university"></i> สถานที่สำคัญ</h2>
                     </header>
                 </div>
 
 
                 <div class="card-content">
                     <div class="row">
-                        <div class="col-md-4">
-                            <div class="card">
-
+                        <div class="col-md-4 col-sm-6">
+                            <div class="card margin">
                                 <div class="card-body">
                                     <header>
                                         วิหาร1
@@ -34,13 +33,14 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="card">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="card margin">
                                 <div class="card-body">
                                     <header>
                                         place name2
                                     </header>
                                 </div>
+                                <div class="img" style="background: url('../img/ex-1168.jpg'); background-size: contain"></div>
                                 <div class="card-content">
 
                                     Picture
@@ -51,13 +51,14 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6">
                             <div class="card margin">
                                 <div class="card-body">
                                     <header>
                                         place name3
                                     </header>
                                 </div>
+                                <div class="img" style="background: url('../img/ex-1168.jpg'); background-size: contain"></div>
                                 <div class="card-content">
 
                                     Picture
@@ -68,15 +69,14 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="card">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="card margin">
                                 <div class="card-body">
                                     <header>
                                         place name4
                                     </header>
                                 </div>
+                                <div class="img" style="background: url('../img/ex-1168.jpg'); background-size: contain"></div>
                                 <div class="card-content">
 
                                     Picture
@@ -87,13 +87,14 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="card">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="card margin">
                                 <div class="card-body">
                                     <header>
                                         place name5
                                     </header>
                                 </div>
+                                <div class="img" style="background: url('../img/ex-1168.jpg'); background-size: contain"></div>
                                 <div class="card-content">
 
                                     Picture
@@ -104,13 +105,14 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="card">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="card margin">
                                 <div class="card-body">
                                     <header>
                                         place name6
                                     </header>
                                 </div>
+                                <div class="img" style="background: url('../img/ex-1168.jpg'); background-size: contain"></div>
                                 <div class="card-content">
 
                                     Picture
@@ -123,8 +125,10 @@
                         </div>
                     </div>
                 </div>
+                <div class="card-body">
+                    <footer>footer</footer>
+                </div>
             </div>
-
         </div>
 
     </div>

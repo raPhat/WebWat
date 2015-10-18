@@ -1,0 +1,25 @@
+.wrapper {
+    padding: 25px 20px;
+}
+.cLogin {
+    margin: 20px auto 0 auto;
+    padding-bottom: 15px !important;
+    max-width: 350px;
+}
+.cLogin > .page-header {
+    margin: 0;
+    padding: 0 15px;
+}
+.cLogin > .page-header small {
+    display: block;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+input.form-control {
+    border-radius: 0 !important;
+}
+.btn {
+    border-radius: 0 !important;
+    box-shadow: 2px 2px 0 rgba(0,0,0,0.15);
+}

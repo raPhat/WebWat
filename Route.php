@@ -59,6 +59,8 @@ class Route {
 
         $conthodler = explode("@", $controller);
 
+        require_once( ROOT_CONTROLLER . $conthodler[0] .".php" );
+
         $controller = new $conthodler[0]();
 
         if( count($req)==0 )

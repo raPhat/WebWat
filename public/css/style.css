@@ -25,7 +25,7 @@ body {
 body > footer > .container {
     font-family: 'max_pinjohnv2regular';
     padding: 10px 20px;
-    font-size: 12px;
+    font-size: 16px;
     color: #AAA;
     border-top: 1px solid #DDD;
 }
@@ -250,6 +250,7 @@ ul.horizon > li {
 }
 .card.margin {
     margin: 10px 0;
+    padding: 15px 0;
 }
 .card > .card-body {
     padding: 10px;
@@ -273,7 +274,7 @@ ul.horizon > li {
     position: absolute;
     top: 0;
     right: 10px;
-    padding: 3px 10px;
+    padding: 7px 10px 3px 10px;
     font-family: 'max_pinjohnv2regular';
     color: #eeeeee;
     background-color: rgba(0,0,0,0.5);
@@ -287,8 +288,8 @@ ul.horizon > li {
     border-color: #eeeeee;
     color: #666;
 }
-.card-body > header > i , .card-body > footer > i {
-    font-size: 18px;
+.card-body > header  i , .card-body > footer  i {
+    font-size: smaller;
     color: #AAA;
 }
 .card-body > header > span , .card-body > footer > span {
@@ -303,4 +304,10 @@ ul.horizon > li {
     font-family: 'max_pinjohnv2regular';
     text-indent: 2.5em;
     font-size: 20px;
+}
+
+
+h1,h2,h3,h4,h5 {
+    padding: 0;
+    margin: 0;
 }

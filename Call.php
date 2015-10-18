@@ -9,4 +9,7 @@ Route::get('/home','homeController@page');
 Route::get('/history','historyController@page');
 Route::get('/importantplace','importantplaceController@page');
 Route::get('/gallery','galleryController@page');
+
+Route::get('/admin','adminController@index');
+
 Route::error();
