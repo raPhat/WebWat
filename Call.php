@@ -9,6 +9,9 @@ Route::get('/home','homeController@page');
 Route::get('/history','historyController@page');
 Route::get('/importantplace','importantplaceController@page');
 Route::get('/gallery','galleryController@page');
+Route::get('/guestbook','guestbookController@page');
+Route::get('/contact','contactController@page');
+Route::get('/map','mapController@page');
 
 Route::post('/test/{id}','indexController@test', ['id'=>'/[0-9]/']);
 
