@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/style.css"/>
     <link rel="stylesheet" href="/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="/css/bootstrap.css" rel="stylesheet">
+
 </head>
 <body>
 <div class="wrapper">

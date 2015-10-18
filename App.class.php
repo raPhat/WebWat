@@ -35,6 +35,7 @@ class App {
         require_once( ROOT_CONTROLLER . "historyController.php" );
         require_once( ROOT_CONTROLLER . "importantplaceController.php" );
         require_once( ROOT_CONTROLLER . "galleryController.php" );
+        require_once( ROOT_CONTROLLER . "guestbookController.php" );
         // โหลด Modal
         //require_once( ROOT_MODAL . "page.php" );
     }

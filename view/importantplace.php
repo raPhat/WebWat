@@ -21,7 +21,6 @@
                                     <header>
                                         วิหาร1
                                     </header>
-
                                 </div>
                                 <div class="img" style="background: url('../img/ex-1168.jpg'); background-size: contain"></div>
                                 <div class="card-content">
@@ -41,6 +40,7 @@
                                         place name2
                                     </header>
                                 </div>
+                                <div class="img" style="background: url('../img/ex-1168.jpg'); background-size: contain"></div>
                                 <div class="card-content">
 
                                     Picture
