@@ -4,7 +4,7 @@
     <div class="container">
         <ul class="horizon">
             <li><a href="#">HOME</a></li>
-            <li><a href="#"><i class="fa fa-lock"></i> ผู้ดูแล</a></li>
+            <li><a href="admin"><i class="fa fa-lock"></i> ผู้ดูแล</a></li>
             <li><i class="fa fa-copyright"></i> KARJ & SHINE</li>
         </ul>
     </div>
