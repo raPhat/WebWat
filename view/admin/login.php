@@ -21,10 +21,4 @@
         </div>
     </div>
 </div>
-<?php
-
-$DB = new Connect();
-$user = $DB->select("user", " email='admin@webwat.com' and password='e10adc3949ba59abbe56e057f20f883e' ");
-
-?>
 <?php require_once( ROOT_VIEW . 'admin/footer.php' ); ?>
