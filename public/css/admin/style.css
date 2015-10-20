@@ -1,5 +1,36 @@
+@font-face {
+    font-family: 'max_pinjohnv2regular';
+    src: url('/fonts/max_pinjohn_v2-webfont.eot');
+    src: url('/fonts/max_pinjohn_v2-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/max_pinjohn_v2-webfont.woff2') format('woff2'),
+    url('/fonts/max_pinjohn_v2-webfont.woff') format('woff'),
+    url('/fonts/max_pinjohn_v2-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'th_sarabun';
+    src: url('/fonts/THSarabunNew.eot');
+    src: url('/fonts/THSarabunNew.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/THSarabunNew.woff2') format('woff2'),
+    url('/fonts/THSarabunNew.woff') format('woff'),
+    url('/fonts/THSarabunNew.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
 .wrapper {
-    padding: 25px 20px;
+    position: relative;
+    top: 0;
+    height: 100%;
 }
 .cLogin {
     margin: 20px auto 0 auto;
@@ -20,6 +51,168 @@ input.form-control {
     border-radius: 0 !important;
 }
 .btn {
-    border-radius: 0 !important;
-    box-shadow: 2px 2px 0 rgba(0,0,0,0.15);
+    box-shadow: 0 2px 0 rgba(0,0,0,0.15);
+}
+
+
+nav.aLeft {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-image: url("/img/menu_bg.jpg");
+    box-shadow: 2px 0 5px rgba(0,0,0,0.25);
+    -webkit-transition: width 0.25s linear;
+    -moz-transition: width 0.25s linear;
+    transition: width 0.25s linear;
+}
+.aLeft > .logo {
+    position: relative;
+    margin: 10px auto;
+    width: 90%;
+    height: 95px;
+    background-image: url("/img/logo.png");
+    background-position: top center;
+    background-size: 100px auto;
+    background-repeat: no-repeat;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: rgba(255,255,255,0.25);
+    opacity: 0.35;
+}
+.logo > .title {
+    position: relative;
+    top: 60px;
+    margin: 0 auto;
+    width: 90%;
+    font-family: 'max_pinjohnv2regular';
+    font-size: 24px;
+    text-align: center;
+    color: #FFF;
+}
+section.aRight {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 0 !important;
+    margin-left: 200px;
+    padding: 10px;
+    width: calc(100% - 200px);
+    -webkit-transition: width 0.25s linear;
+    -moz-transition: width 0.25s linear;
+    transition: width 0.25s linear;
+}
+nav.aLeft.toggle {
+    width: 55px;
+}
+nav.aLeft span {
+    visibility: visible;
+}
+nav.aLeft.toggle span {
+    visibility: hidden;
+}
+section.aRight.toggle {
+    width: calc(100% - 55px);
+}
+
+.aLeft > section {
+    width: 100%;
+    height: calc(100% - 105px);
+    overflow-y: scroll;
+}
+.aLeft > section::-webkit-scrollbar {
+    width: 8px;
+}
+.aLeft > section::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+.aLeft > section::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,0.35);
+}
+.aLeft > section::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0,0,0,0.75);
+}
+.leftMenu {
+    font-family: 'max_pinjohnv2regular';
+    padding: 0px;
+    list-style-type: none;
+    font-size: 24px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.leftMenu i {
+    font-size: 16px;
+}
+.leftMenu > a {
+    text-decoration: none !important;
+    cursor: pointer !important;
+    color: #ffffff !important;
+}
+.leftMenu > a > li {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow:hidden;
+    margin: 5px 0;
+    padding: 5px 18px 0 18px;
+    background-color: rgba(255,255,255,0.05);
+    border-radius: 0 25px 25px 0;
+    text-shadow: 0 0 3px rgba(0,0,0,0.15);
+}
+.leftMenu > a > li:hover {
+    background-color: rgba(255,255,255,0.25);
+}
+.leftMenu > a.hidden-md-up > li {
+    text-align: right;
+    color: rgba(0,0,0,0.75);
+    text-shadow: 0 0 3px rgba(255,255,255,0.35);
+    background-color: rgba(255,255,255,0.75);
+
+}
+
+.fh , label {
+    font-family: 'max_pinjohnv2regular' !important;
+    font-size: 1.5em !important;
+    line-height: 0.8em !important;
+}
+
+input[type='text'] , textarea {
+    font-family: 'th_sarabun' !important;
+    max-width: 350px;
+}
+.wysiwyg-editor , .btn {
+    font-family: 'th_sarabun' !important;
+}
+.btn-md {
+    padding-top: 10px !important;
+    font-size: 24px !important;
+    line-height: 1em !important;
+}
+.wysiwyg-toolbar {
+    white-space: normal !important;
+}
+
+.card-img-top {
+    max-width: 100%;
+}
+.modal-dialog.impt {
+    max-width: 350px;
+}
+
+.btEdit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: rgba(255,255,255,0.75);
+    background-color: rgba(0, 0, 0, 0.35);
+    border-radius: 0 3px 0 3px !important;
+    box-shadow: none;
+}
+.btEdit > i {
+    position: relative;
+    top: 2px;
+}
+.btEdit:hover {
+    color: rgba(255,255,255,1);
+    background-color: rgba(0, 0, 0, 0.65);
 }

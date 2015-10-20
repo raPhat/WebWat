@@ -4,6 +4,8 @@ if( !defined("webStart") ) { exit(0); }
 
 class App {
 
+    static $text = array();
+
     function __construct() {
         $this->_autoload();
         $this->_get();
@@ -28,6 +30,11 @@ class App {
         }
         Language::_load();
 
+        $this->setAllText();
+
+        // โหลด Request
+        require_once( ROOT_REQUEST . "Request.class.php" );
+
         // โหลด Controller
 //        require_once( ROOT_CONTROLLER . "pagesController.php" );
 //        require_once( ROOT_CONTROLLER . "indexController.php" );
@@ -37,5 +44,12 @@ class App {
 //        require_once( ROOT_CONTROLLER . "galleryController.php" );
         // โหลด Modal
         //require_once( ROOT_MODAL . "page.php" );
+    }
+
+    private function setAllText() {
+        $result = Connect::select("text","");
+        foreach( $result as $val ) {
+            App::$text[$val['key_t']] = $val['content'];
+        }
     }
 }

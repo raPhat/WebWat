@@ -13,8 +13,11 @@ Route::get('/guestbook','guestbookController@page');
 Route::get('/contact','contactController@page');
 Route::get('/map','mapController@page');
 
-Route::post('/test/{id}','indexController@test', ['id'=>'/[0-9]/']);
-
 Route::get('/admin','adminController@index');
+Route::get('/admin/history','adminController@history');
+Route::get('/admin/importantplace','adminController@importantplace');
+Route::get('/admin/logout','adminController@logout');
+Route::post('/admin/login','adminController@login');
+Route::post('/admin/history','adminController@saveHistory');
 
 Route::error();

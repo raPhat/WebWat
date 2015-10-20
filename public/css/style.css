@@ -9,6 +9,17 @@
     font-style: normal;
 
 }
+@font-face {
+    font-family: 'th_sarabun';
+    src: url('/fonts/THSarabunNew.eot');
+    src: url('/fonts/THSarabunNew.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/THSarabunNew.woff2') format('woff2'),
+    url('/fonts/THSarabunNew.woff') format('woff'),
+    url('/fonts/THSarabunNew.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 *{
     -webkit-box-sizing:border-box;
@@ -17,6 +28,7 @@
 }
 
 body {
+    font-family: 'th_sarabun';
     margin: 0;
     padding: 0;
     background-color: #e9eaed;
@@ -43,7 +55,7 @@ body > footer > .container li:last-child {
 
 .wrapper {
     position: relative;
-    min-height: 900px;
+    min-height: 650px;
 }
 .container {
     margin: 0 auto 0 auto;
@@ -169,7 +181,7 @@ header.fixed > .hTitle > .container > .logo {
     text-align: center;
 }
 .hTitle > .container > .title h1 {
-    margin: 0;
+    margin: 8px 0 0 0;
     padding: 0;
     height: 40px;
     font-size: 48px;
@@ -177,6 +189,8 @@ header.fixed > .hTitle > .container > .logo {
     color: rgba(255,255,255,0.5);
 }
 .hTitle > .container > .title span {
+    position: relative;
+    bottom: 5px;
     display: block;
     font-size: 24px;
     color: rgba(255,255,255,0.25);
@@ -302,13 +316,41 @@ ul.horizon > li {
 }
 
 .card > .card-content > p.indent {
-    font-family: 'max_pinjohnv2regular';
     text-indent: 2.5em;
-    font-size: 20px;
+    font-size: 24px;
+    color: #666;
 }
 
 
 h1,h2,h3,h4,h5 {
     padding: 0;
     margin: 0;
+}
+
+.item {
+    width: 100%;
+    max-width: 290px;
+}
+.item.w2 { width: 100%; max-width: 590px; }
+@media screen and (max-width: 1000px) {
+    .container.cd {
+        max-width: 750px;
+    }
+    .item {
+        max-width: 350px;
+    }
+    .item.w2 { max-width: calc(100% - 40px) !important; }
+}
+@media screen and (max-width: 750px) {
+    .container.cd {
+        max-width: 450px;
+    }
+    .item {
+        max-width: calc(100% - 30px);
+    }
+    .item.w2 { max-width: calc(100% - 30px) !important; }
+}
+.item.w2 { width: 100%; max-width: 590px; }
+.item .card.margin {
+    margin: 5px 0px;
 }

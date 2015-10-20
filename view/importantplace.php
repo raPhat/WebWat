@@ -2,135 +2,50 @@
 
     <div id="sub-container" class="sub-container">
 
-
-        <div class="container">
-            <div class="card margin">
-                <div class="card-body">
-                    <header>
-                        <h2><i class="fa fa-university"></i> สถานที่สำคัญ</h2>
-                    </header>
+        <div id="imptPage" class="container cd js-masonry" data-masonry-options='{ "columnWidth": 20, "itemSelector": ".item" }'>
+            <div class="item">
+                <div class="card margin">
+                    <div class="img"></div>
+                    <br/><br/><br/><br/><br/>
                 </div>
-
-
-                <div class="card-content">
-                    <div class="row">
-                        <div class="col-md-4 col-sm-6">
-                            <div class="card margin">
-                                <div class="card-body">
-                                    <header>
-                                        วิหาร1
-                                    </header>
-
-                                </div>
-                                <div class="img" style="background: url('../img/ex-1168.jpg'); background-size: contain"></div>
-                                <div class="card-content">
-
-
-                                    <p class="indent"> Content here.</p>
-                                </div>
-                                <div class="card-body">
-                                    <footer>footer</footer>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="card margin">
-                                <div class="card-body">
-                                    <header>
-                                        place name2
-                                    </header>
-                                </div>
-                                <div class="img" style="background: url('../img/ex-1168.jpg'); background-size: contain"></div>
-                                <div class="card-content">
-
-                                    Picture
-                                    <p class="indent"> Content here.</p>
-                                </div>
-                                <div class="card-body">
-                                    <footer>footer</footer>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="card margin">
-                                <div class="card-body">
-                                    <header>
-                                        place name3
-                                    </header>
-                                </div>
-                                <div class="img" style="background: url('../img/ex-1168.jpg'); background-size: contain"></div>
-                                <div class="card-content">
-
-                                    Picture
-                                    <p class="indent"> Content here.</p>
-                                </div>
-                                <div class="card-body">
-                                    <footer>footer</footer>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="card margin">
-                                <div class="card-body">
-                                    <header>
-                                        place name4
-                                    </header>
-                                </div>
-                                <div class="img" style="background: url('../img/ex-1168.jpg'); background-size: contain"></div>
-                                <div class="card-content">
-
-                                    Picture
-                                    <p class="indent"> Content here.</p>
-                                </div>
-                                <div class="card-body">
-                                    <footer>footer</footer>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="card margin">
-                                <div class="card-body">
-                                    <header>
-                                        place name5
-                                    </header>
-                                </div>
-                                <div class="img" style="background: url('../img/ex-1168.jpg'); background-size: contain"></div>
-                                <div class="card-content">
-
-                                    Picture
-                                    <p class="indent"> Content here.</p>
-                                </div>
-                                <div class="card-body">
-                                    <footer>footer</footer>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="card margin">
-                                <div class="card-body">
-                                    <header>
-                                        place name6
-                                    </header>
-                                </div>
-                                <div class="img" style="background: url('../img/ex-1168.jpg'); background-size: contain"></div>
-                                <div class="card-content">
-
-                                    Picture
-                                    <p class="indent"> Content here.</p>
-                                </div>
-                                <div class="card-body">
-                                    <footer>footer</footer>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            </div>
+            <div class="item">
+                <div class="card margin">
+                    <div class="img"></div>
                 </div>
-                <div class="card-body">
-                    <footer>footer</footer>
+            </div>
+            <div class="item">
+                <div class="card margin">
+                    <div class="img"></div>
+                </div>
+            </div>
+            <div class="item w2">
+                <div class="card margin">
+                    <div class="img"></div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card margin">
+                    <div class="img"></div>
+
+                </div>
+            </div>
+            <div class="item">
+                <div class="card margin">
+                    <div class="img"></div>
+
                 </div>
             </div>
         </div>
 
-    </div>
 
+    </div>
+    <script>
+        var container = document.querySelector('#imptPage');
+        var msnry = new Masonry( container, {
+            // options
+            columnWidth: 20,
+            itemSelector: '.item'
+        });
+    </script>
 <?php require_once(ROOT_VIEW . 'footer.php'); ?>
