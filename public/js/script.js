@@ -1,3 +1,3 @@
 
 // เริ่มสไลด์
-slide.show();
+onScroll();
